@@ -35,9 +35,9 @@ public class ActionNodeShoot : ActionNodeAction
 
                 break;
             case UnitGame.Soldier:
-                if (_IACharacterActions is IACharacterActionsSoldier)
+                if (_IACharacterActions is IACharacterActionsVillage)
                 {
-                    ((IACharacterActionsSoldier)_IACharacterActions).Shoot();
+                    ((IACharacterActionsVillage)_IACharacterActions).Shoot();
                 }
                 break;
             case UnitGame.None:

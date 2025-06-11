@@ -34,9 +34,9 @@ public class ActionWander : ActionNodeVehicle
 
                 break;
             case UnitGame.Soldier:
-                if (_IACharacterVehiculo is IACharacterVehiculoSoldier)
+                if (_IACharacterVehiculo is IACharacterVehiculoVillage)
                 {
-                    ((IACharacterVehiculoSoldier)_IACharacterVehiculo).MoveToWander();
+                    ((IACharacterVehiculoVillage)_IACharacterVehiculo).MoveToWander();
 
                 }
                 break;

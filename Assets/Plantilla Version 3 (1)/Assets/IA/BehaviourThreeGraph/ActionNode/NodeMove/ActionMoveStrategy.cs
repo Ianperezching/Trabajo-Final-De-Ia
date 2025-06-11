@@ -29,10 +29,10 @@ public class ActionMoveStrategy : ActionNodeVehicle
                 
                 break;
             case UnitGame.Soldier:
-                if (_IACharacterVehiculo is IACharacterVehiculoSoldier)
+                if (_IACharacterVehiculo is IACharacterVehiculoVillage)
                 {
-                    ((IACharacterVehiculoSoldier)_IACharacterVehiculo).MoveToStrategy();
-                    ((IACharacterVehiculoSoldier)_IACharacterVehiculo).LookEnemy();
+                    ((IACharacterVehiculoVillage)_IACharacterVehiculo).MoveToAllied();
+                    ((IACharacterVehiculoVillage)_IACharacterVehiculo).LookEnemy();
                 }
                 break;
             case UnitGame.None:

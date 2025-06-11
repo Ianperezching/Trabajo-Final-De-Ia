@@ -34,10 +34,10 @@ public class ActionFollowEnemy : ActionNodeVehicle
 
                 break;
             case UnitGame.Soldier:
-                if (_IACharacterVehiculo is IACharacterVehiculoSoldier)
+                if (_IACharacterVehiculo is IACharacterVehiculoVillage)
                 {
-                    ((IACharacterVehiculoSoldier)_IACharacterVehiculo).MoveToEnemy();
-                    ((IACharacterVehiculoSoldier)_IACharacterVehiculo).LookEnemy();
+                    ((IACharacterVehiculoVillage)_IACharacterVehiculo).MoveToEnemy();
+                    ((IACharacterVehiculoVillage)_IACharacterVehiculo).LookEnemy();
                 }
                 break;
             case UnitGame.None:
