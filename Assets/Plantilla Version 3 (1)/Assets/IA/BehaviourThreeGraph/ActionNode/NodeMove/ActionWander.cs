@@ -40,6 +40,13 @@ public class ActionWander : ActionNodeVehicle
 
                 }
                 break;
+            case UnitGame.aldeano:
+                if (_IACharacterVehiculo is IACharacterVehiculoAldeano)
+                {
+                    ((IACharacterVehiculoAldeano)_IACharacterVehiculo).MoveToWander();
+
+                }
+                break;
             case UnitGame.None:
                 break;
             default:

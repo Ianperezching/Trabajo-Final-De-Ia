@@ -22,7 +22,7 @@ public class IACharacterActionsSoldier : IACharacterActions
         }
         FrameRate += Time.deltaTime;
 
-
+        
     }
     public void Shoot()
     {
