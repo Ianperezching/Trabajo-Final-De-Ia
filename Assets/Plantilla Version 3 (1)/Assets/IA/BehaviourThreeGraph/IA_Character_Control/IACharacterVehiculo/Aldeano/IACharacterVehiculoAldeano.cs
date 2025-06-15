@@ -33,5 +33,22 @@ public class IACharacterVehiculoAldeano : IACharacterVehiculo
     {
         base.MoveToEvadEnemy();
     }
+    public override void MoveToWander()
+    {
+        // Si ve un zombie, huye
+        if (AIEye.ViewEnemy != null && AIEye.ViewEnemy._UnitGame == UnitGame.Zombie)
+        {
+            MoveToEvadEnemy();
+            return;
+        }
+        // Si ve un golem, lo sigue
+        if (AIEye.ViewAllie != null && AIEye.ViewAllie._UnitGame == UnitGame.golem)
+        {
+            MoveToAllied();
+            return;
+        }
+        // Si no ve nada, wander
+        base.MoveToWander();
+    }
 
 }

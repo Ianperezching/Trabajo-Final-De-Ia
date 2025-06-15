@@ -21,7 +21,7 @@ MonoBehaviour:
       startIndex: 
       variableStartIndex: 
       JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(78,7)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(-2,117)"},"ID":1,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-4.859604,191.8139)"},"ID":2,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-973.1228,138.002991)"},"ID":3,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"ActionNodeNotViewEnemy","NodeData":{"Offset":"(-138.536255,159.7575)"},"ID":4,"Name":"Action
-        Node Not View Enemy","Instant":true},{"Type":"ActionWander","NodeData":{"Offset":"(52.200428,162.599625)"},"ID":5,"Name":"Action
+        Node Not View Enemy","Instant":true},{"Type":"ActionWander","NodeData":{"Offset":"(62.6170959,162.599625)"},"ID":5,"Name":"Action
         Wander","Instant":true}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-428.335083,164.2179)"},"ID":6,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"ActionNodeViewEnemy","NodeData":{"Offset":"(-209.0002,124.702156)"},"ID":7,"Name":"Action
         Node View Enemy","Instant":true},{"Type":"ActionNotColliderRadioAction","NodeData":{"Offset":"(-4.933831,135.477386)"},"ID":8,"Name":"Action
         Not Collider Radio Action","Instant":true},{"Type":"ActionFollowEnemy","NodeData":{"Offset":"(200.752914,125.270447)"},"ID":9,"Name":"Action
@@ -43,4 +43,4 @@ MonoBehaviour:
         unityObjects: []
         byteData: 
         byteDataArray: 
-      Version: 1.6.8
+      Version: 1.7.12
